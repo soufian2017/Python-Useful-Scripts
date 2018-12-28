@@ -20,5 +20,5 @@ with open(TMP+FILE_NAME, "r") as f:
 	else:
 		print("ERROR")
 		
-system("rm "+TMP+FILE_NAME)
+system("rm "+TMP+FILE_NAME) # just in case of errors.
 system("rm -r "+TMP)
